@@ -1,8 +1,8 @@
 # MailFlow in progress
 
-## I've created a modern, iOS-inspired email client with the following features:
+### I've created a modern, iOS-inspired email client with the following features:
 
-# Dual Mode Interface: 
+####  Dual Mode Interface: 
 
 Simple mode with chat-like interface
 Pro mode with rich text editor (TipTap)
