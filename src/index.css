@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased text-gray-900;
+  }
+}
+
+.prose {
+  @apply max-w-none;
+}
+
+.ce-block__content {
+  @apply max-w-none mx-0;
+}
+
+.ce-toolbar__content {
+  @apply max-w-none mx-0;
+}
+
+.ce-paragraph {
+  @apply text-base leading-relaxed;
+}
+
+.ce-header {
+  @apply font-bold mb-4;
+}
+
+.ce-header[contenteditable="true"][data-placeholder]:empty::before {
+  @apply text-gray-400;
+}
+
+.cdx-quote {
+  @apply border-l-4 border-gray-300 pl-4 italic my-4;
+}
+
+.cdx-list {
+  @apply pl-5 mb-4;
+}
+
+.cdx-list__item {
+  @apply mb-2;
+}
